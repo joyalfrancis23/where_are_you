@@ -21,6 +21,8 @@ class MyApp extends StatelessWidget {
         primaryColor: const Color(0xFFFFFFFF),
         primarySwatch: Colors.cyan,
       ),
+      debugShowCheckedModeBanner: false,
+      
       home: ShowLocation(),
     ),
     );
